@@ -1,6 +1,8 @@
 {
-  "name": "youpin3-pc",
+  "name": "{{ name }}",
   "version": "0.0.0",
+  "description":"{{ description }}",
+  "author":"{{ author }}",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
